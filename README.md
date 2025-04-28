@@ -19,8 +19,8 @@ A simple bot for the [Nostr](https://nostr.com/) protocol that responds to menti
    ```
 5. Create a `.env` file in the root directory with the following content (you can copy this from the output of the previous command):
    ```
+   NOSTR_PUBLIC_KEY=your_public_key_here
    NOSTR_PRIVATE_KEY=your_private_key_here
-   // Comma separated relays
    RELAYS=wss://relay.damus.io,wss://relay.nostr.info,wss://nostr-pub.wellorder.net
    BOT_NAME=NostrBot
    ```

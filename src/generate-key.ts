@@ -28,6 +28,7 @@ console.log(
 // Create a sample .env file content
 console.log("\nSample .env file content:");
 console.log("------------------------");
+console.log(`NOSTR_PUBLIC_KEY=${publicKey}`);
 console.log(`NOSTR_PRIVATE_KEY=${privateKey}`);
 console.log(
   "RELAYS=wss://relay.damus.io,wss://relay.nostr.info,wss://nostr-pub.wellorder.net"
